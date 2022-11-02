@@ -52,6 +52,14 @@ p{
     margin: 40px;
     background-color: yellowgreen;
     border-radius: 30px;
-    
+}
 
+
+marquee{
+    color: violet;
+    font-weight: bolder;
+    font-size: larger;
+    background-image: url('united.jpg');
+    height: 70px;
+    text-shadow: 2px 2px red;
 }
