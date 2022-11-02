@@ -1,0 +1,57 @@
+body{
+    background-color: lightblue;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.p{
+    text-align: center;
+    color: green;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+.div5{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+
+}
+.div0{
+    display: inline-flex;
+}
+
+.btn{
+    margin: 40px;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    
+
+}

@@ -10,17 +10,18 @@ body{
 tr, td{
     padding: 10px;
 }
-
+/*
 h1{
     color: red;
     text-align: center;
 }
-
+*/
 .div{
     width: 100px;
     height: 100px;
     background-color: blue;
     margin: auto;
+    
 }
 
 .btn,.fa{
@@ -30,6 +31,19 @@ h1{
     border: none;
     font-size: 16px;
     cursor: all-scroll;
+}
+
+
+img{
+    width: 50px;
+    margin: 30px;
+}
+/*
+h3{
+    position: absolute;
+    right: 521px;
+    bottom: 2%;
+    
 }
 
 
