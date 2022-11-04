@@ -1,0 +1,42 @@
+body{
+    background-color: lightslategray;
+}
+
+.item{
+  border: 3px solid blue;
+   height: 100px;
+    width: 100px;
+}
+
+/*flex container property
+    #Justify content
+        -space-between
+        -space-evenly
+        -space-around
+        -center
+        -flex-end
+        -flex-start, which is the default
+
+    #Align-item
+        -
+
+*/
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    height: 80vh;
+}
+
+
+
+.btn{
+    border: none;
+    padding: 10px 10px;
+    
+}
+
+/*.item-container{
+    display: flex;
+}*/
