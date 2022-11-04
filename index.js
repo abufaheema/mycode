@@ -54,6 +54,29 @@ console.log(`abcd`)
 //for(begin,condition,step){
 //}
 
-for(let i = 0; i < arr.length; i+= 2){
-        console.log(arr[i] )
+//for(let i = 0; i < arr.length; i+= 2){
+ //       console.log(arr[i] )
+ //       console.log(arr[i] )
+//}
+
+
+//function
+  //  function sum(parameters){
+ //function body
+ //return
+ //   }
+
+//given an array of number find the sum
+//let arr = [1,2,3,4,5,6,7,8,9]
+
+function sumNumber(arr){
+    let sum = 0;
+
+    for(let i=0; i<arr.length; i++){
+        sum += arr[i];    
+    }
+
+    return sum;
 }
+console.log("The sum of the array value is: "+ sumNumber([1,2,3,4,5,6,7,8,9]));
+console.log("The sum of the Second array is: "+ sumNumber([100,56,78,09]));
