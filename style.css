@@ -4,7 +4,7 @@ body{
 
 .item{
   border: 3px solid blue;
-   height: 100px;
+   height: 50px;
     width: 100px;
 }
 
@@ -18,7 +18,8 @@ body{
         -flex-start, which is the default
 
     #Align-item
-        -
+    #flex-direction
+    #flex-wrap
 
 */
 
@@ -27,6 +28,8 @@ body{
     justify-content: space-between;
     background-color: lightcoral;
     height: 80vh;
+  border: 3px solid blue;
+
 }
 
 
@@ -37,6 +40,6 @@ body{
     
 }
 
-/*.item-container{
+.item-container{
     display: flex;
-}*/
+}

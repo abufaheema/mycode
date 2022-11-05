@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine ;
+    background: linear-gradient(to right, lightcoral,lightcyan,yellowgreen);
 }
 
 #table{
@@ -10,12 +10,11 @@ body{
 tr, td{
     padding: 10px;
 }
-/*
+
 h1{
     color: red;
     text-align: center;
 }
-*/
 .div{
     width: 100px;
     height: 100px;
@@ -33,20 +32,16 @@ h1{
     cursor: all-scroll;
 }
 
-
-img{
-    width: 50px;
-    margin: 30px;
-}
-/*
-h3{
-    position: absolute;
-    right: 521px;
-    bottom: 2%;
-    
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
 }
 
-
-
-
+.item{
+    height: 200px;
+    width: 200px;
+    border: 3px solid cyan ;
+}
 
